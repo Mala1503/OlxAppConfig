@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: OLX-LOGIN
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_boot_june_2025
+    username: root
+    password: Mala@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 9001
+
